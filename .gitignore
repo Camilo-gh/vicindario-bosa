@@ -1,33 +1,73 @@
+# 📄 Documentación
 HELP.md
+
+# 🧪 Maven y Gradle
 target/
+build/
 .mvn/wrapper/maven-wrapper.jar
+.gradle/
+gradle-app.setting
+.gradletasknamecache
+
+# ✅ Permitir carpetas de build internas
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-### STS ###
+# 🧠 Archivos de compilación y empaquetado
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.log
+hs_err_pid*
+
+# 🧰 Archivos temporales y del sistema
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 🧱 STS / Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
+# 💡 IntelliJ IDEA / JetBrains IDEs
+.idea/
 *.iws
 *.iml
 *.ipr
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/libraries
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# 🧪 NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### VS Code ###
+# 🧩 VS Code
 .vscode/
