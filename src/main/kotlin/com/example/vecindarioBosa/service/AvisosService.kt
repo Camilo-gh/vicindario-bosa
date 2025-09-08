@@ -1,5 +1,6 @@
-package com.example.vecindarioBosa.Aviso
+package com.example.vecindarioBosa.service
 
+import com.example.vecindarioBosa.models.Aviso
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.jdbc.core.RowMapper

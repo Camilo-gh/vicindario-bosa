@@ -1,4 +1,4 @@
-package com.example.vecindarioBosa.Aviso
+package com.example.vecindarioBosa.models
 
 data class Aviso(
     val id: Int,
