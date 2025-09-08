@@ -19,7 +19,7 @@ class UsuariosController {
     @PostMapping("/login")
     fun login(@RequestBody usuario: Usuario): String {
         val autenticado = usuariosService.login(usuario.email, usuario.password)
-        return if (autenticado) "Login exitoso" else "Credenciales inválidas"
+        return if (autenticado) "Login exitoso" else "Datos inválidos"
     }
 
     @GetMapping
