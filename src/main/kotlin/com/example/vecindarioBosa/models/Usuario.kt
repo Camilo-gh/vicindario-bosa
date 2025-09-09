@@ -1,4 +1,4 @@
-package com.example.vecindarioBosa.Usuario
+package com.example.vecindarioBosa.models
 
 data class Usuario(
     val id: Int,
